@@ -1,4 +1,4 @@
-module github.com/lthibault/jitterbug/v2
+module github.com/miparnisari/jitterbug
 
 go 1.23
 

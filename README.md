@@ -1,18 +1,16 @@
 # jitterbug
 
-Tickers with random jitter
-
-[![Godoc Reference](https://img.shields.io/badge/godoc-reference-blue.svg?style=flat-square)](https://pkg.go.dev/github.com/lthibault/jitterbug/v2)
-[![Go Report Card](https://goreportcard.com/badge/github.com/SentimensRG/ctx?style=flat-square)](https://goreportcard.com/report/github.com/lthibault/jitterbug)
+[![Godoc Reference](https://img.shields.io/badge/godoc-reference-blue.svg?style=flat-square)](https://pkg.go.dev/github.com/miparnisari/jitterbug/v2)
+[![Go Report Card](https://goreportcard.com/badge/github.com/SentimensRG/ctx?style=flat-square)](https://goreportcard.com/report/github.com/miparnisari/jitterbug)
 
 Jitterbug provides functionality similar to `time.Ticker`, but with a configurable random jitter.
 
-Jitterbug has no external dependencies, has a stable API, and is production-ready.
+Jitterbug has a stable API, and is production-ready.
 
 ## Installation
 
 ```bash
-go get -u github.com/lthibault/jitterbug/v2
+go get -u github.com/miparnisari/jitterbug/v2
 ```
 
 ## Usage
@@ -27,7 +25,7 @@ package main
 import (
     "log"
 
-    "github.com/lthibault/jitterbug"
+    "github.com/miparnisari/jitterbug"
 )
 
 func main() {
@@ -63,3 +61,7 @@ t := jitterbug.New(
 
 - [GoNum](https://github.com/gonum/gonum), specifically the [univariate distributions](https://godoc.org/gonum.org/v1/gonum/stat/distuv).
 - [Suture](https://github.com/thejerf/suture) can use jitterbug for it's backoff [durations](https://pkg.go.dev/github.com/thejerf/suture/v4#Jitter).
+
+## Acknowledgements
+
+This library is a fork of https://github.com/lthibault/jitterbug.
