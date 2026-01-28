@@ -1,7 +1,7 @@
 # jitterbug
 
-[![Godoc Reference](https://img.shields.io/badge/godoc-reference-blue.svg?style=flat-square)](https://pkg.go.dev/github.com/miparnisari/jitterbug)
-[![Go Report Card](https://goreportcard.com/badge/github.com/SentimensRG/ctx?style=flat-square)](https://goreportcard.com/report/github.com/miparnisari/jitterbug)
+[![Godoc Reference](https://img.shields.io/badge/godoc-reference-blue.svg?style=flat-square)](https://pkg.go.dev/github.com/authzed/jitterbug)
+[![Go Report Card](https://goreportcard.com/badge/github.com/SentimensRG/ctx?style=flat-square)](https://goreportcard.com/report/github.com/authzed/jitterbug)
 
 Jitterbug provides functionality similar to `time.Ticker`, but with a configurable random jitter.
 
@@ -10,7 +10,7 @@ Jitterbug has a stable API, and is production-ready.
 ## Installation
 
 ```bash
-go get -u github.com/miparnisari/jitterbug
+go get -u github.com/authzed/jitterbug
 ```
 
 ## Usage
@@ -25,7 +25,7 @@ package main
 import (
     "log"
 
-    "github.com/miparnisari/jitterbug"
+    "github.com/authzed/jitterbug"
 )
 
 func main() {
